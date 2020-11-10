@@ -15,19 +15,19 @@ export const countCoins = (amount, coins) => {
   }
 }
 
-const typeOfCoin = (amount) => {
-  return (amountOfCoins) => {
-    return amount * amountOfCoins;
-  }
-}
+// const typeOfCoin = (amount) => {
+//   return (amountOfCoins) => {
+//     return amount * amountOfCoins;
+//   }
+// }
 
-const factorial = (number) => {
-  if (isNaN(number)) {
-    return;
-  }
-  if (number === 0) {
-    return 1;
-  } else {
-    return factorial(number - 1) * number;
-  }
-}
+// const factorial = (number) => {
+//   if (isNaN(number)) {
+//     return;
+//   }
+//   if (number === 0) {
+//     return 1;
+//   } else {
+//     return factorial(number - 1) * number;
+//   }
+// }
